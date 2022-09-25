@@ -1,0 +1,130 @@
+.modal-form {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+}
+.form-title {
+  margin-bottom: 12px;
+  padding: 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  color: var(--primary-text-color);
+}
+.form-name {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+}
+.form-input {
+  display: block;
+  width: 450px;
+  height: 40px;
+  padding: 12px 12px 12px 42px;
+  outline: none;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  color: var(--modal-header-color);
+  transition: border-color var(--animation-time) var(--time-function);
+}
+
+.form-label {
+  position: relative;
+  display: block;
+  margin-bottom: 10px;
+}
+.agree-block {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  margin: 0;
+  border: 3px solid var(--primary-text-color);
+  border-radius: 2px;
+  transition: border-color var(--animation-time) var(--time-function),
+    background-image var(--animation-time) var(--time-function);
+
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  }
+}
+
+.form-agree:checked ~ .agree-block {
+  background-image: url(../Images/agree.svg);
+  background-size: cover;
+  background-position: center;
+  background-origin: border-box;
+  border-color: var(--accent-color);
+  background-color: #2196f3;
+}
+
+.agree-text {
+  line-height: 1.7;
+}
+.form-conditions {
+  color: var(--accent-color);
+}
+
+.form-agree-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 30px;
+}
+
+.form-textarea-label {
+  position: relative;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.form-textarea {
+  display: block;
+  width: 450px;
+  height: 120px;
+  resize: none;
+  padding: 12px;
+  margin-bottom: 20px;
+  outline: none;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  transition: border-color var(--animation-time) var(--time-function);
+}
+
+.form-input:focus-within,
+.form-input:hover,
+.form-textarea:focus-within,
+.form-textarea:hover {
+  border: 1px solid var(--accent-color);
+}
+
+textarea {
+  resize: none;
+}
+
+.form-textarea::placeholder {
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.form-icon {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  width: 18px;
+  height: 18px;
+  fill: var(--primary-text-color);
+  transition: fill var(--animation-time) var(--time-function);
+}
+
+.form-input:focus-within + .form-icon,
+.form-input:hover + .form-icon {
+  fill: var(--accent-color);
+}

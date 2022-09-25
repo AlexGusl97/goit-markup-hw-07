@@ -1,0 +1,27 @@
+/* header */
+
+.header {
+  background-color: var(--main-background-color);
+  border-bottom: 1px solid var(--additional-color-second);
+
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+
+  /* Лого header */
+
+  &__logo {
+    margin-right: 93px;
+    color: var(--accent-color);
+    font-family: Raleway;
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 1.2;
+
+    &--black {
+      color: var(--black-color);
+      font-family: Raleway;
+    }
+  }
+}
