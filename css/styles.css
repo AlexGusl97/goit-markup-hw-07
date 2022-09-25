@@ -130,7 +130,6 @@ p {
   color: var(--black-color);
   font-family: Raleway;
 } */
-*/
 
 /* Навігація сайту */
 /* .nav {
@@ -844,7 +843,7 @@ textarea {
 
 /*Портфоліо*/
 
-.project-button-list {
+/* .project-button-list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -923,7 +922,7 @@ textarea {
 }
 
 /* Вспливаючий текст */
-.project-link {
+/* .project-link {
   transition: box-shadow var(--animation-time) var(--time-function);
 }
 
@@ -960,4 +959,4 @@ textarea {
 .project-link:focus .project-overlay {
   transform: translateY(0);
   opacity: 1;
-}
+} */
