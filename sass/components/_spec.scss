@@ -1,6 +1,6 @@
 .spec {
   @extend %section;
-
+  padding-top: 0px;
   &__list {
     display: flex;
     gap: 30px;

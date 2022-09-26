@@ -10,19 +10,19 @@
 
 // Components styles
 @import './components/btn';
+@import './components/footer-form';
+@import './components/address';
+@import './components/modal-form';
+@import './components/modal';
+@import './components/hero';
+@import './components/features';
+@import './components/spec';
+@import './components/team';
+@import './components/clients';
 
 // Layouts styles
 @import './layouts/header';
 @import './layouts/navigation';
 @import './layouts/contacts';
-@import './layouts/hero';
-@import './layouts/features';
-@import './layouts/spec';
-@import './layouts/team';
-@import './layouts/clients';
 @import './layouts/footer';
-@import './layouts/modal';
-@import './layouts/modal-form';
-@import './layouts/address';
-@import './layouts/footer-form';
 @import './layouts/portfolio';

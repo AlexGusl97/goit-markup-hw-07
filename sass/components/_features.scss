@@ -1,6 +1,7 @@
 /* Переваги */
 
 .features {
+  @extend %section;
   &__item {
     width: 270px;
   }

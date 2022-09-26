@@ -37,6 +37,11 @@
       line-height: 1.14;
       letter-spacing: 0.02em;
       transition: color var(--animation-time) var(--time-function);
+
+      &:hover,
+      &:focus {
+        color: var(--accent-color);
+      }
     }
   }
 }

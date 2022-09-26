@@ -4,14 +4,13 @@
 }
 .footer-form-container {
   margin-left: 93px;
-
-  &-title {
-    margin-bottom: 20px;
-    font-weight: 700;
-    line-height: 1.2;
-    text-transform: uppercase;
-    color: var(--main-background-color);
-  }
+}
+.footer-form-title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--main-background-color);
 }
 
 .footer-input {
